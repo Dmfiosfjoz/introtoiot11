@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>
+    	IoT
+
+
+    </title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="header.css">
-    <script src="jscolor.js"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+    <script src="jscolor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js" ></script>
+
+
+
 </head>
 <body>
-<!-- HEADER  -->
+
+<!-- HEADER-->
 <header>
 	<ul>
-		<li><img src="https://www.viesso.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/l/i/lightbox-base-3.jpg"></li>
-		<li><a href="index.html">AmbiLamp</a></li>
+		<li> <img src="https://www.viesso.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/l/i/lightbox-base-3.jpg"> </li>
+		<li> <a href="index.html">Ambilamp</a> </li>
 		<li><a href="details.html">Details</a></li>
 	</ul>
-	
 </header>
 
-<!--JSCOLOR PICKER -->
-<input type="button" class="jscolor" id="picker" value="EFFFC9">
 
-<!-- FORM -->
+
+
+<!-- JSCOLOR PICKER-->
+
+<input type = "button" class = "jscolor" id = "picker" value = "EFFFC9">
+
+<!-- FORM-->
+
 <form>
-	<input type="text" id="color">
-	<input type="submit" value="set as Default" id="set_default">
-</form>
+      <input type = "text" id = "color">
+      <input type = "submit" value = "Set as Default" id = "set_default">
+     
+	   </form>
 
-<!-- Chart -->
-<div id="chart-container">
-	
-<canvas id="temp-chart" class="chart" width ="550" height="350" ></canvas>
-<canvas id="sound-chart" class="chart" width="550" height="350" ></canvas>
+<!-- CHARTS-->
+
+<div id = "charts-container">   
+<canvas id = "temp-chart" class = "chart" width="550" height ="350"></canvas>
+<canvas id = "sound-chart" class = "chart" width="550" height="350"></canvas>
+
+
 </div>
-<!-- About -->
-<div id="about">
-	<h1> ABOUT</h1>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet, sapien vitae semper malesuada, nunc orci aliquet diam, id pellentesque erat erat id magna. Pellentesque sodales vulputate purus id consequat. Cras in velit sagittis, euismod nulla a, pretium dui. Integer id lorem elit. Duis in augue eget nisl scelerisque blandit. Aenean efficitur mauris vel arcu feugiat vulputate. Morbi a congue ante. Pellentesque porttitor imperdiet felis vitae dapibus. Aliquam eu imperdiet sem. Praesent dapibus quis ligula ut mattis. Pellentesque eget diam vitae erat porta venenatis vel vel elit. In id nulla nec enim gravida elementum vitae ut eros. In neque sem, suscipit non aliquet eu, ultrices a risus. Cras leo turpis, imperdiet eu gravida convallis, lacinia quis velit. Nam a mi eget justo semper iaculis.</p>
+<!-- ABOUT-->
+<div id = "about">
 
-	<p>Suspendisse sed finibus purus. Curabitur egestas ultrices fringilla. Nullam tellus magna, pretium in arcu vel, maximus euismod nibh. Nam lobortis nunc non mauris lobortis convallis. Praesent ut libero consequat, faucibus ex vitae, varius enim. Etiam facilisis elit neque, a fringilla urna iaculis at. Etiam ut blandit nulla, vitae pretium urna. Nulla sed fermentum ex.</p>
+<h1>About</h1>
 
-	<p>Proin ullamcorper nulla fermentum, auctor dui sed, vehicula ligula. Fusce vel scelerisque arcu. Vivamus porta maximus elit, quis laoreet leo iaculis ut. Aenean luctus, enim sit amet rhoncus scelerisque, urna nulla aliquam sem, eu molestie est nunc feugiat erat. Etiam ullamcorper scelerisque mattis. Curabitur a facilisis lacus. Donec id feugiat orci. Suspendisse ultricies ornare aliquam. Nunc eget lorem a purus laoreet aliquam ac vitae arcu. Donec quis euismod leo.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non felis tempus, blandit leo vel, rutrum arcu. Donec ornare leo a dolor vehicula, id vulputate lectus tempor. Donec ornare venenatis orci, id elementum nisi tempor vitae. Pellentesque convallis magna eget ipsum molestie, nec porta quam tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas facilisis lacus eu venenatis ornare. Aenean ut efficitur eros. Nunc scelerisque felis felis, sed tempus quam eleifend cursus. Duis quis scelerisque massa. Praesent eget tellus nibh.</p>
 
-	<p>Fusce dictum ultricies nulla et pharetra. Pellentesque congue non tellus eget faucibus. Aenean scelerisque ac neque varius efficitur. Ut et interdum est, ut porta lectus. In pharetra tortor eget arcu rhoncus rutrum. Pellentesque vehicula, diam at dictum sagittis, orci libero tempor nisl, et pulvinar turpis tellus cursus mauris. Nunc feugiat ligula in accumsan dictum. Ut a quam ac urna fermentum tempor. Vivamus efficitur rutrum eros, quis posuere eros bibendum eu.</p>
+<p>Ut ac lectus sit amet sapien imperdiet pretium quis a quam. Quisque ac tincidunt velit. Quisque vehicula faucibus dapibus. Nam at tincidunt sem. Suspendisse potenti. Quisque id leo semper nibh sagittis iaculis et sed mi. Proin mi libero, porttitor et volutpat a, vestibulum placerat orci. Praesent turpis sapien, viverra vel ullamcorper id, varius sit amet elit. Sed dapibus convallis ex, a eleifend dui commodo et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec feugiat, tellus eu euismod interdum, libero urna posuere arcu, eget rutrum tortor diam a augue. Cras quis egestas metus, sollicitudin ultricies massa. Morbi non leo tristique, mollis nibh quis, vehicula risus. Quisque ipsum magna, sagittis id maximus sit amet, dignissim ac turpis. In ac ipsum at diam tempus cursus. Morbi semper diam sit amet metus feugiat, quis consequat nunc rutrum.</p>
 
-	<p> tincidunt nisi eu quam tempor venenatis. Nam convallis velit at quam euismod fermentum. Duis et ullamcorper nisl, pellentesque interdum felis. Aliquam tempor, risus et cursus posuere, mauris nibh malesuada purus, a porta ipsum urna a mauris. Aliquam nec porttitor nibh, non faucibus diam. Maecenas accumsan sollicitudin orci a semper. Maecenas nec turpis faucibus, eleifend nunc sit amet, fermentum neque. Donec fermentum leo eu erat mattis aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<p>Nam et rutrum dui. Praesent efficitur, risus interdum gravida tristique, nisi turpis venenatis lectus, a consectetur mi arcu ac nisl. Pellentesque ac ornare sapien. Nam semper convallis lorem, eget consequat sapien sodales ac. Aenean ultrices sem vel iaculis laoreet. Nulla cursus faucibus odio nec sodales. Donec neque sem, volutpat vitae augue quis, sodales aliquet massa. Aliquam scelerisque mauris id quam ullamcorper, at hendrerit nunc iaculis. Nunc finibus ex non tortor commodo mattis. Phasellus ac sem et sem semper fermentum ut a lectus.</p>
 
-<script type="text/javascript" src="index.js"></script>
+<p>In sit amet libero leo. In in arcu quis odio sagittis fermentum. Nulla facilisi. Sed et risus id eros varius finibus eu nec eros. Aenean est metus, egestas at odio vitae, rutrum faucibus tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam vel lorem nisi. Curabitur volutpat nec ipsum dictum hendrerit. Sed sed consectetur eros, quis aliquam tellus.</p>
+
+<p>Duis ac elit sed sapien ultrices volutpat. Integer cursus in dolor nec ultrices. Vivamus maximus urna a mollis facilisis. Aliquam bibendum elit ac lectus imperdiet, at euismod lacus volutpat. Sed a mi sed purus euismod condimentum. Nulla sit amet felis ac mi viverra feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sit amet odio ac felis pulvinar suscipit. In placerat molestie magna sed aliquet. Aliquam volutpat gravida erat, in accumsan velit dictum eu. Morbi at neque vel ex lobortis condimentum.</p>
+</div>
+<script type="text/javascript" src= "index.js"></script>>	
+
 </body>
 </html>
-
-
 
